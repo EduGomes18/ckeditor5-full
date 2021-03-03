@@ -2,10 +2,10 @@
   "name": "ckeditor5-custom-build-full",
   "author": "edusnown",
   "description": "A custom full CKEditor 5.",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "license": "SEE LICENSE IN LICENSE.md",
-  "private": true,
-  "devDependencies": {
+  "private": false,
+  "dependencies": {
     "@ckeditor/ckeditor5-adapter-ckfinder": "^25.0.0",
     "@ckeditor/ckeditor5-autoformat": "^25.0.0",
     "@ckeditor/ckeditor5-basic-styles": "^25.0.0",
@@ -37,6 +37,19 @@
     "webpack": "^4.46.0",
     "webpack-cli": "^4.4.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduGomes18/ckeditor5-full"
+  },
+  "homepage": "https://github.com/EduGomes18/ckeditor5-full",
+  "keywords": [
+    "ckeditor",
+    "ckeditor5",
+    "ckeditor 5",
+    "ckeditor5-feature",
+    "ckeditor5-plugin",
+    "ckeditor5-react"
+  ],
   "scripts": {
     "build": "webpack --mode production"
   }
